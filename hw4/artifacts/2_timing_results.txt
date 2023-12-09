@@ -1,0 +1,7 @@
+n_jobs: 1, Thread Time: 0.011893033981323242, Process Time: 0.011916399002075195
+n_jobs: 2, Thread Time: 1.4544804096221924, Process Time: 1.4441850185394287
+n_jobs: 3, Thread Time: 1.451995611190796, Process Time: 1.3605766296386719
+n_jobs: 4, Thread Time: 1.5358734130859375, Process Time: 1.552748441696167
+n_jobs: 5, Thread Time: 1.8017463684082031, Process Time: 1.448103666305542
+n_jobs: 6, Thread Time: 1.9224674701690674, Process Time: 1.8799083232879639
+n_jobs: 7, Thread Time: 1.6402993202209473, Process Time: 1.6960117816925049

@@ -1,0 +1,6 @@
+Single-threaded execution times:
+0.015354156494140625
+Multi-threaded execution times:
+0.008769035339355469
+Multi-process execution times:
+0.0157012939453125
