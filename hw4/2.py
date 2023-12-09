@@ -33,7 +33,7 @@ def measure_time_and_log(executor_type, n_jobs, f, a, b):
 
 
 def main():
-    logging.basicConfig(filename='integration_log.txt', level=logging.INFO,
+    logging.basicConfig(filename='artifacts/integration_log.txt', level=logging.INFO,
                         format='%(asctime)s: %(message)s')
 
     n_jobs_range = range(1, 8)
@@ -44,7 +44,7 @@ def main():
         time_process = measure_time_and_log("process", n_jobs, math.cos, 0, math.pi / 2)
         results.append((n_jobs, time_thread, time_process))
 
-    with open('2_timing_results.txt', 'w') as f:
+    with open('artifacts/2_timing_results.txt', 'w') as f:
         for n_jobs, time_thread, time_process in results:
             f.write(f'n_jobs: {n_jobs}, Thread Time: {time_thread}, Process Time: {time_process}\n')
 

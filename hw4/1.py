@@ -47,7 +47,7 @@ def main() -> None:
 
     process_times = measure_time("process", n, runs)
 
-    with open("timing_results.txt", "w") as file:
+    with open("artifacts/timing_results.txt", "w") as file:
         file.write("Single-threaded execution times:\n")
         file.write("\n".join(map(str, single_times)) + "\n")
         file.write("Multi-threaded execution times:\n")
